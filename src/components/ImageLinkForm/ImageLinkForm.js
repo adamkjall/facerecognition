@@ -11,7 +11,7 @@ const ImageLinkForm = ({ onInputChange, onButtonSubmit }) => {
           <input
             className='f4 pa2 w-70 br4' type='text'
             placeholder='Enter image url here'
-            onInput={onInputChange} autofocus />
+            onInput={onInputChange}  />
           <button
             className='w-30 grow f4 link ph3 pv2 dib'
             onClick={onButtonSubmit}>Detect</button>
