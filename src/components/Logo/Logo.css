@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Odachi';
+  src: url('./Odachi.woff') format('woff');
+}
+
+.logo {
+  font-family: 'Odachi';
+  color: rgb(201, 162, 209);
+  font-size: 4em;
+  margin-left: 4%;
+  margin-top: 1%;
+}

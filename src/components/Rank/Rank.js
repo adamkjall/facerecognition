@@ -3,11 +3,11 @@ import React from 'react';
 const Rank = () => {
     return (
         <div>
-            <div className='white f3'>
-                Adam, your current rank is...
+            <div className='f1 b white'>
+                Image face detection brain
             </div>
-            <div className='white f1'>
-                #5
+            <div className='f1 white'>
+                <p></p>
             </div>
         </div>
     )

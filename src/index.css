@@ -4,7 +4,8 @@ body {
   font-family: "Courier New", "Courier", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(89deg, #092864 0%, #6180BD 100%);
+  color: white;
+  background: linear-gradient(89deg, #200340 0%, #2e1946 100%);
 }
 
 code {
