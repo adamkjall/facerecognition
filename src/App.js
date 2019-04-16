@@ -59,6 +59,7 @@ class App extends Component {
   }
 
   onButtonSubmit = () => {
+    this.setState({boxes: []})
     this.setState({ imageUrl: this.state.input });
 
     app.models.predict(
