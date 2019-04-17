@@ -23,7 +23,7 @@ const Navigation = ({ onRouteChange, isSignedIn }) => {
             className='f3 b link dim white pa3 pointer'>Sign in</p>
           <p
             onClick={() => onRouteChange('register')}
-            className='f3 b mr3 link dim white pa3 pointer'>Register</p>
+            className='f3 b mr4 link dim white pa3 pointer'>Register</p>
         </nav>
       </div>
     );

@@ -14,15 +14,28 @@ const app = new Clarifai.App({
 });
 
 const particlesOptions = {
-  particles: {
-    number: {
-      value: 60,
-      density: {
-        enable: true,
-        value_area: 800
+  "particles": {
+    "number": {
+      "value": 80,
+      "density": {
+        "enable": true,
+        "value_area": 800
       }
+    },
+    "color": {
+      "value": "#ffffff"
     }
-  }
+  },
+  "interactivity": {
+    "detect_on": "window",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "resize": true
+    },
+  },
 }
 
 class App extends Component {
