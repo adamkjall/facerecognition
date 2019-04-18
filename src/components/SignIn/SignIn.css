@@ -3,6 +3,10 @@
     border-width: 1px;
 }
 
+.bg {
+    background: rgba(106, 71, 145, .9);
+}
+
 .b--black {
     border-color: #000;
 }

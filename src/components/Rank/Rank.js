@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Rank = () => {
+const Rank = ({ name, entries }) => {
     return (
         <div>
             <div className='f1 b white'>
-                Image face detection brain
+                {`${name}, you current entry count is...`}
             </div>
             <div className='f1 white'>
-                <p></p>
+                {entries}
             </div>
         </div>
     )
